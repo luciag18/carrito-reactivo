@@ -1,9 +1,9 @@
 /* src/app/components/checkout/checkout.css */
 .checkout-container {
-  border: 1px solid #e0e0e0;
+  border: 1px solid #BF7069;
   padding: 25px;
   border-radius: 12px;
-  background-color: #ffffff; /* Fondo blanco para la tarjeta */
+  background-color: #F2F2F2; 
   box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Somba muy suave */
 }
 
@@ -17,7 +17,7 @@ h3 {
 .total {
   font-size: 1.4rem;
   font-weight: bold;
-  color: #2c3e50;
+  color: #BF6B04;
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
@@ -25,9 +25,9 @@ h3 {
 
 .btn-confirm {
   width: 100%;
-  background-color: #28a745; /* El verde original */
+  background-color: #F29F05;
   color: white;
-  border: none;
+  border: 1px solid #F29F05;;
   padding: 12px;
   border-radius: 8px;
   font-weight: bold;
@@ -37,5 +37,7 @@ h3 {
 }
 
 .btn-confirm:hover {
-  background-color: #218838;
+  background-color: white;
+  color: #F29F05;
+  border: 1px solid #F29F05;
 }

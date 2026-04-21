@@ -11,9 +11,9 @@ import { CartService } from '../../services/cart';
       <h3>Resumen de Compra</h3>
       @if (cartService.totalItems() > 0) {
         <div class="details">
-          <p><span>Productos:</span> <span>{{ cartService.totalItems() }}</span></p>
-          <p><span>Subtotal:</span> <span>{{ cartService.totalPrice() | currency:'ARS':'symbol':'1.0-0' }}</span></p>
-          <p><span>IVA (21%):</span> <span>{{ tax() | currency:'ARS':'symbol':'1.0-0' }}</span></p>
+          <p><span>Productos: </span> <span>{{ cartService.totalItems() }}</span></p>
+          <p><span>Subtotal: </span> <span>{{ cartService.totalPrice() | currency:'ARS':'symbol':'1.0-0' }}</span></p>
+          <p><span>IVA (21%): </span> <span>{{ tax() | currency:'ARS':'symbol':'1.0-0' }}</span></p>
           <hr>
           <div class="total">
             <span>Total:</span>

@@ -29,36 +29,7 @@ import { Product } from '../../models/product.model';
       </div>
     </section>
   `,
-  styles: [`
-    .product-grid { 
-      display: flex; 
-      gap: 20px; 
-      padding: 20px; 
-      flex-wrap: wrap;
-    }
-    .product-card { 
-      border: 1px solid #ddd; 
-      padding: 20px; 
-      border-radius: 12px; 
-      background: #f9f9f9;
-      width: 200px;
-      text-align: center;
-      box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
-    }
-    .price { font-weight: bold; color: #2c3e50; }
-    button {
-      background-color: #007bff;
-      color: white;
-      border: none;
-      padding: 10px 15px;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-    button:hover:not(:disabled) { background-color: #0056b3; }
-    button:disabled { background-color: #ccc; cursor: not-allowed; }
-    .out-of-stock { background-color: #e74c3c !important; }
-  `]
+  styleUrl: './product-list.css'
 })
 export class ProductListComponent {
 
