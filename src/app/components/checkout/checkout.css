@@ -1,0 +1,41 @@
+/* src/app/components/checkout/checkout.css */
+.checkout-container {
+  border: 1px solid #e0e0e0;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: #ffffff; /* Fondo blanco para la tarjeta */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Somba muy suave */
+}
+
+h3 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.total {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-confirm {
+  width: 100%;
+  background-color: #28a745; /* El verde original */
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.2s;
+}
+
+.btn-confirm:hover {
+  background-color: #218838;
+}
